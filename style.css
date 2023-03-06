@@ -18,12 +18,29 @@ html, body{
         
 }
 
+.submit-button{
+    margin-top: auto; 
 
-.box-main{
+    min-height: 15%; 
+    border-radius: 50px; 
+
+    color: white;   
+    background-color: var(--orange); 
+}
+
+.submit-button:active{
+    background-color: white; 
+    color: var(--orange); 
+}
+
+
+.box-main{ 
 
     display: flex; 
+    flex-direction: column; 
+    /* align-items: center;  */
     justify-content: center; 
-    align-items:center; 
+
 
     background-color: var(--dark-blue); 
     color: var(--light-grey); 
@@ -31,7 +48,7 @@ html, body{
 
     aspect-ratio: 1 / 1; 
 
-    border-radius: 10%;
+    border-radius: 7%;
     padding: 2%; 
 
 } 
