@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
 :root{
     --orange: hsl(25, 97%, 53%); 
     --white: hsl(0, 0%, 100%);
@@ -8,24 +10,33 @@
 
 }
 
+
 html, body{
-    height: 100%; 
-    width: 100%; 
-    
+    font-size: 15px; 
+
+    min-height: 100vh;
+    min-width: 100vh; 
+
     display: flex; 
     justify-content: center; 
     align-items: center; 
+
         
 }
 
+
 .submit-button{
-    margin-top: auto; 
+    margin-top: 50%; 
+    align-items: center; 
 
     min-height: 15%; 
-    border-radius: 50px; 
+    border-radius: 25px; 
 
-    color: white;   
     background-color: var(--orange); 
+    color: var(--white); 
+
+    font-family: 'Overpass', sans-serif; 
+    letter-spacing: 0.1rem; 
 }
 
 .submit-button:active{
@@ -33,12 +44,17 @@ html, body{
     color: var(--orange); 
 }
 
+.text-container{
+    margin: 10%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
 
 .box-main{ 
 
     display: flex; 
     flex-direction: column; 
-    /* align-items: center;  */
     justify-content: center; 
 
 
@@ -49,7 +65,8 @@ html, body{
     aspect-ratio: 1 / 1; 
 
     border-radius: 7%;
-    padding: 5%; 
+
+    font-family: 'Overpass', sans-serif; 
 
 
 } 
